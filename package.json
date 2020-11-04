@@ -1,15 +1,18 @@
 {
   "name": "niu-bot",
   "version": "0.1.0",
-  "description": "Entrevista",
+  "description": "A discord bot, just for fun",
   "private": true,
   "scripts": {
     "start": "node server/bin/app",
     "start:dev": "node -r dotenv/config server/bin/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Miguel Palacio <migpalg@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.4.1"
