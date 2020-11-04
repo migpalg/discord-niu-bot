@@ -1,0 +1,21 @@
+{
+  "name": "niu-bot",
+  "version": "0.1.0",
+  "description": "Entrevista",
+  "private": true,
+  "scripts": {
+    "start": "node server/bin/app",
+    "start:dev": "node -r dotenv/config server/bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.12.1"
+  }
+}
